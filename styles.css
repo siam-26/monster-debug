@@ -214,7 +214,7 @@ button {
   list-style-type: upper-roman;
 }
 
-div {
+.blog-div-child {
   padding: 4% 0;
 }
 
