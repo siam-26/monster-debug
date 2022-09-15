@@ -193,12 +193,39 @@ button {
   top: 0;
 }
 
+
+
+/* Blog File */
+.blog-heading-top {
+  color: white;
+  font-size: 50px;
+  font-weight: 900;
+  text-align: center;
+}
+
 .blog-div {
   color: white;
+  margin-left: 20%;
+  padding-top: 0;
+  width: 60%;
 }
 
 .ol-blog {
   list-style-type: upper-roman;
+}
+
+div {
+  padding: 4% 0;
+}
+
+.ques-blog {
+  font-size: 27px;
+}
+
+.ans-blog {
+  font-size: 20px;
+  margin-top: 2%;
+  text-align: justify;
 }
 
 @media only screen and (max-width: 700px) {
@@ -216,4 +243,23 @@ button {
   .card {
     flex-direction: column;
   }
+
+  /* Blog File */
+  .blog-heading-top {
+    font-size: 30px;
+    margin-top: 10%;
+  }
+
+  .ques-blog {
+    font-size: 21px;
+    margin-top: 7%;
+  }
+
+  .ans-blog {
+    font-size: 17px;
+    margin-top: 3%;
+    text-align: justify;
+  }
+
+
 }
