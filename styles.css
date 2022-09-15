@@ -157,9 +157,9 @@ button {
 }
 
 #histories {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3%;
 }
 
 .card {
@@ -168,6 +168,7 @@ button {
   padding: 50px;
   display: flex;
   justify-content: space-between;
+  gap: 10px;
   align-items: center;
   padding: 20px 30px;
   color: white;
@@ -196,6 +197,12 @@ button {
   .box-container {
     padding: 0 20px;
     width: 100%;
+  }
+
+  #histories {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1%;
   }
 
   .card {
